@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCOM - UNH Durham - Shaurya Baruah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">SB</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#projects" class="nav-link">Projects</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="about.html#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="project-hero">
+            <div class="project-hero-container">
+                <a href="index.html" class="project-back-link">← Back to Home</a>
+                <h1 class="project-hero-title">CCOM - UNH Durham</h1>
+                <p class="project-hero-subtitle">
+                    Machine Learning Research Intern
+                </p>
+                <p class="podcast-stats">
+                    Center for Coastal and Ocean Mapping (CCOM), University of New Hampshire — Durham
+                </p>
+            </div>
+        </section>
+
+        <div class="project-content">
+            <div class="content-section">
+                <h2>About CCOM</h2>
+                <p>
+                    The Center for Coastal and Ocean Mapping (CCOM) is a leading oceanographic research 
+                    institute focused on marine mapping, underwater acoustics, and coastal systems.
+                </p>
+            </div>
+
+            <div class="content-section">
+                <h2>Project Overview</h2>
+                <p>
+                    Worked with a graduate researcher studying ocean habitats using long-term underwater 
+                    acoustic data. Hydrophones were deployed for 6 months to collect continuous ocean sound 
+                    recordings for ecological analysis.
+                </p>
+                <p>
+                    One major dataset was partially corrupted due to improper placement near marine vegetation, 
+                    which introduced persistent mechanical noise throughout the recording period. Re-collecting 
+                    the data would have required an additional 6-month deployment.
+                </p>
+            </div>
+
+            <div class="content-section">
+                <h2>My Contribution</h2>
+                <p>
+                    Led a machine-learning–driven signal denoising project to recover usable data from the 
+                    corrupted recordings.
+                </p>
+            </div>
+
+            <div class="content-section">
+                <h2>Key Contributions</h2>
+                <ul>
+                    <li>Led the project end-to-end: research, scoping, sprint planning, implementation, and validation</li>
+                    <li>Designed and implemented supervised ML + signal processing methods in MATLAB to separate environmental noise from biological signals</li>
+                    <li>Processed 20+ GB of underwater acoustic data (10M+ samples)</li>
+                    <li>Recovered 30–40% of otherwise unusable data, eliminating the need for re-sampling</li>
+                    <li>Saved ~6 months (~480 hours) of research time and accelerated ongoing studies</li>
+                    <li>Developed reusable MATLAB scripts adopted by 5+ researchers</li>
+                    <li>Work presented at Acoustics 2023 (Sydney, Australia)</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Research Poster</h2>
+                <p>
+                    Presented at Acoustics 2023 in Sydney, Australia
+                </p>
+                <div class="pdf-embed-container">
+                    <iframe 
+                        src="images/ccom/Shaurya%20Poster.pptx.pdf" 
+                        class="pdf-embed">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Gallery</h2>
+                <div class="podcast-gallery">
+                    <div class="gallery-item">
+                        <img src="images/ccom/action4.JPG" alt="CCOM research work" class="gallery-image">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/ccom/Shaurya%20-%20Presentation%20to%20Juniors.png" alt="Presentation to juniors" class="gallery-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Shaurya Baruah. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
